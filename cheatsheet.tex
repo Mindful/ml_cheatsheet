@@ -9,7 +9,7 @@
 
 
 \begin{document}
-\section{Probability}
+\section{Probability \& Statistics}
 \mnote{$P(A|B) = \frac{P(A \cap B)}{P(B)}$}\\
 Probability of A given B is the joint probability of A and B divided by B.\\
 
@@ -23,6 +23,9 @@ $P(A|B)$ is the posterior probability, informed by the information given by the 
 \noindent We can also say that $A$ is our hypothesis and $B$ is our evidence. If I am looking for the chance that I have cancer, with no test it is $A$ but with a test it becomes $P(A|B)$ where $B$ is the outcome of the test.\\
 
 \noindent In the case of a test where a positive result is $B$, Bayes' rule can also be thought of as \\\mnote{$\frac{TP}{TP+FP} = \frac{P(B|A)P(A)}{P(B|A)P(A)+P(B|!A)P(!A)} = \frac{P(B|A)P(A)}{P(B)}$}
+
+
+\subsection{P-Value}
 
 \section{Information Theory}
 TODO: entropy, cross entropy, perplexity
@@ -42,8 +45,6 @@ Precision, Recall and F1 Score all focus on your true positives. F1 is less usef
 \item \textbf{Overfit/Underfit} is building a distribution too similar or different to the training data, respectively. Too much bias = underfit. Too much variance = overfit. 
 \end{enumerate}
 
-\section{Models}
-
 \section{Preventing Overfitting}
 k-fold cross validation, l1 and l2 regularization
 \subsection{Neural Methods}
@@ -54,6 +55,7 @@ batch norm??
 \section{Decision Trees}
 
 \section{Naive Bayes}
+multinomial model, binomial model
 
 \section{Regression}
 logistic regression vs binomial regression vs linear regression
@@ -61,7 +63,7 @@ logistic regression vs binomial regression vs linear regression
 \section{Support Vector Machines}
 
 \section{Neural Netorks}
-
+backprop
 \subsection{Feed-Forward}
 Commonly "multi layer perceptron" for classification
 
@@ -69,10 +71,15 @@ Commonly "multi layer perceptron" for classification
 
 \subsection{Transformers}
 
+\section{LDA}
+
 \section{Algorithms}
 \subsection{Bach Gradient Descent}
 \subsection{Stochastic Gradient Descent}
 
 \subsection{Beam Search}
+
+\subsection{TF-IDF}
+
 
 \end{document}
